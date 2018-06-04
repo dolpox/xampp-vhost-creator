@@ -18,14 +18,13 @@ If not found it will try to create it dynamically with the help of the user.
 
 1. **XAMPPDIR**: The installation path of Xampp | Defautl: C:\xammp
 1. **BASEURL**: The document root for Xampp | Default: C:\xammp\htdocs\
-1. **PREFIX**: The prefix for the virtual host domain | Defualt: dev
 1. **SUFFIX**: The suffix for the virtual host domain | Defualt: local
 
 
 ##How to use
 When executed the script prompts the user to complete two values.
 
-1. Domain name: [prefix][domain][local]  
+1. Domain name: [domain][local]  
 	Ex.: For the domain **dev.mysite.local**, just enter the text **mysite**.
 
 2. Path to site root (relative to C:\mysitesfolder\).
